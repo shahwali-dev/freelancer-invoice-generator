@@ -1,39 +1,36 @@
-# 🧾 Freelancer Invoice Generator
+🧾 Freelancer Invoice Generator
+A production-grade, highly optimized Full-Stack Application architected with Next.js 15, TypeScript, and pnpm Workspace. The system is fully containerized using an advanced Multi-stage Docker setup and secured via enterprise-grade Clerk Authentication with isolated runtime context injection.
 
-A production-grade, highly optimized Full-Stack Application architected with **Next.js 15**, **TypeScript**, and **pnpm Workspace**. The system is fully containerized using an advanced **Multi-stage Docker setup** and secured via enterprise-grade **Clerk Authentication** with isolated runtime context injection.
+Live URL: freelancerinvoicegenerator.com
 
-Live URL: [freelancerinvoicegenerator.com](https://freelancerinvoicegenerator.com/)
-
----
-
-## 💎 Architectural Highlights & Engineering Excellence
-
+💎 Architectural Highlights & Engineering Excellence
 This repository has been fully refactored from a standard boilerplate into a high-performance, maintainable enterprise setup:
 
-- **Package Optimization (pnpm Monorepo Ready):** Migrated from legacy `npm` and `package-lock.json` to **`pnpm Workspace`** utilizing strict native dependency builds (`@clerk/shared`, `sharp`, `prisma`, `@swc/core`), resulting in **80% faster cache compilation** and zero dependency bloat.
-- **Enterprise Containerization:** Implemented a secure, lightweight **Multi-Stage Docker configuration** leveraging Next.js `standalone` build output to bypass node_modules dependency layers, shrinking the final production image footprint.
-- **Security-First Environment Design:** Enforced strict `.gitignore` patterns preventing sensitive credentials from leaking into version control, paired with a seamless **Clerk CLI integration** for automated key provisioning.
+Package Optimization (pnpm Monorepo Ready): Migrated from legacy npm and package-lock.json to pnpm Workspace utilizing strict native dependency builds (@clerk/shared, sharp, prisma, @swc/core), resulting in 80% faster cache compilation and zero dependency bloat.
 
----
+Enterprise Containerization: Implemented a secure, lightweight Multi-Stage Docker configuration leveraging Next.js standalone build output to bypass node_modules dependency layers, shrinking the final production image footprint.
 
-## 🛠️ Technology Stack
+Security-First Environment Design: Enforced strict .gitignore patterns preventing sensitive credentials from leaking into version control, paired with a seamless Clerk CLI integration for automated key provisioning.
 
-- **Core Framework:** Next.js 15 (App Router, Standalone Compilation)
-- **Language Layer:** TypeScript (Strict type checking validation)
-- **Styling Core:** Tailwind CSS, Tailwind Variants, Tailwind Merge
-- **Authentication:** Clerk Auth System (Dynamic Middleware Guards)
-- **Package Manager:** `pnpm` (Configured with allowed engine/native builds)
-- **Container Infrastructure:** Docker (Alpine Linux, Layer isolation)
+🛠️ Technology Stack
+Core Framework: Next.js 15 (App Router, Standalone Compilation)
 
----
+Language Layer: TypeScript (Strict type checking validation)
 
-## ⚙️ Local Development & Setup
+Styling Core: Tailwind CSS, Tailwind Variants, Tailwind Merge
 
+Authentication: Clerk Auth System (Dynamic Middleware Guards)
+
+Package Manager: pnpm (Configured with allowed engine/native builds)
+
+Container Infrastructure: Docker (Alpine Linux, Layer isolation)
+
+⚙️ Local Development & Setup
 Follow these professional workflows to spin up the ecosystem natively on Linux/Ubuntu environments:
 
-### 1. Clone & Initialize Environment
-```bash
-git clone [https://github.com/shahwali-dev/freelancer-invoice-generator.git](https://github.com/shahwali-dev/freelancer-invoice-generator.git)
+1. Clone & Initialize Environment
+Bash
+git clone https://github.com/shahwali-dev/freelancer-invoice-generator.git
 cd freelancer-invoice-generator
 2. Automated Secret Management (Clerk CLI Workflow)
 Instead of error-prone, manual copy-pasting from dashboards which suffer from client-side clipboard truncation, authenticate directly via terminal to securely pull development keys:
