@@ -1,0 +1,24 @@
+# Cache & Unnecessary Outputs
+.next/cache
+out
+build
+dist
+.pnpm-store
+
+# Modules & Logs (Block local node_modules since standalone needs no node_modules)
+node_modules
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Version Control
+.git
+.github
+
+# Local Configurations (Security First)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
