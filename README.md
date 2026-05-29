@@ -19,6 +19,14 @@ This repository has been fully refactored from a standard boilerplate into a hig
 
 ---
 
+## 📸 Visual Production Walkthrough
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4284e3f4-e57f-4509-8e26-318508a90b72" alt="Freelancer Invoice Generator Production Walkthrough" width="100%" />
+</p>
+
+---
+
 ## 🛠️ Technology Stack
 
 - **Core Framework:** Next.js 15 (App Router, Standalone Compilation)
@@ -91,4 +99,4 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a Pull Request
 
 ---
-**Engineered and Maintained by [Shah Wali (shahwali-dev)](https://github.com/shahwali-dev)**
+**Engineered and Hardened by [Shah Wali (shahwali-dev)](https://github.com/shahwali-dev)**
