@@ -22,7 +22,7 @@ This repository has been fully refactored from a standard boilerplate into a hig
 ## 📸 Visual Production Walkthrough
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4284e3f4-e57f-4509-8e26-318508a90b72" alt="Freelancer Invoice Generator Production Walkthrough" width="100%" />
+  <img src="https://github.com/user-attachments/assets/acc81bce-127c-4453-81cb-42d193f0cc28" alt="Freelancer Invoice Generator Production Walkthrough" width="100%" />
 </p>
 
 ---
