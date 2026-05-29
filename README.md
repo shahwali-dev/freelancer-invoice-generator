@@ -1,5 +1,8 @@
 # 🧾 Freelancer Invoice Generator
 
+[![Vercel Deployment](https://img.shields.io/badge/Deployment-Live%20on%20Vercel-black?style=flat-square&logo=vercel)](https://freelancerinvoicegenerator.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 A production-grade, highly optimized Full-Stack Application architected with **Next.js 15**, **TypeScript**, and **pnpm Workspace**. The system is fully containerized using an advanced **Multi-stage Docker setup** and secured via enterprise-grade **Clerk Authentication** with isolated runtime context injection.
 
 Live URL: [freelancerinvoicegenerator.com](https://freelancerinvoicegenerator.com/)
