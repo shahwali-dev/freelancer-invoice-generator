@@ -9,7 +9,7 @@ Live URL: [freelancerinvoicegenerator.com](https://freelancerinvoicegenerator.co
 
 <p align="center">
   <br />
-  <a href="https://algora.io/p/shahwali-dev" target="_blank">
+  <a href="https://algora.io/shahwali-dev" target="_blank">
     <img src="https://algora.io/og/user/shahwali-dev" alt="Shah Wali's Algora Profile" width="100%" style="max-width: 100%; display: block;" />
   </a>
   <br />
