@@ -7,14 +7,6 @@ A production-grade, highly optimized Full-Stack Application architected with **N
 
 Live URL: [freelancerinvoicegenerator.com](https://freelancerinvoicegenerator.com/)
 
-<p align="center">
-  <br />
-  <a href="https://algora.io/shahwali-dev" target="_blank">
-    <img src="https://algora.io/og/user/shahwali-dev" alt="Shah Wali's Algora Profile" width="100%" style="max-width: 100%; display: block;" />
-  </a>
-  <br />
-</p>
-
 ---
 
 ## 💎 Architectural Highlights & Engineering Excellence
